@@ -4,7 +4,46 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>로그인</title>
   </head>
-  <body></body>
+  <body>
+    <div class="formWrapper">
+      <!-- Left Side -->
+      <section class="simpleInfo">
+        <div class="dim">
+          <h2>Mingmusic에서 <br />인생곡을 찾아보세요</h2>
+          <div class="simpleInfoBottom">
+            <p>회원이 아니신가요?</p>
+            <a href="signin.html">
+              <div class="signInBtn">회원가입하러 가기</div>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- Right Side -->
+      <section class="login">
+        <h2>Mingmusic</h2>
+        <form action="https://mingstone.tistory.com/">
+          <label for="idInput"
+            >아이디
+            <input class="textInput" type="text" name="idInput" id="idInput" />
+          </label>
+          <label class="textInput" for="password"
+            >비밀번호
+            <input type="password" name="password" id="password" />
+          </label>
+          <label for="rememberId">
+            <input type="checkbox" name="rememberId" id="rememberId" />아이디
+            저장
+          </label>
+          <button type="submit">로그인</button>
+        </form>
+        <div class="bottomInfo">
+          <div class="goSignIn">회원가입하기</div>
+          <div class="findPassWord">비밀번호 찾기</div>
+        </div>
+      </section>
+    </div>
+  </body>
 </html>
