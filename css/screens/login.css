@@ -154,6 +154,7 @@
   background-color: #fc534e;
   color: rgba(255, 255, 255, 0.9);
   font-size: 20px;
+  cursor: pointer;
 }
 
 .bottomInfo {
