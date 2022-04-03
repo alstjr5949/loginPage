@@ -25,24 +25,38 @@
       <section class="login">
         <h2>Mingmusic</h2>
         <form action="https://mingstone.tistory.com/">
-          <label for="idInput"
-            >아이디
-            <input class="textInput" type="text" name="idInput" id="idInput" />
-          </label>
-          <label class="textInput" for="password"
-            >비밀번호
-            <input type="password" name="password" id="password" />
-          </label>
-          <label for="rememberId">
-            <input type="checkbox" name="rememberId" id="rememberId" />아이디
-            저장
-          </label>
-          <button type="submit">로그인</button>
+          <input
+            class="textInput"
+            type="text"
+            placeholder="아이디를 입력하세요."
+            name="idInput"
+            required
+          />
+          <input
+            class="textInput"
+            type="password"
+            placeholder="비밀번호를 입력하세요."
+            name="password"
+            required
+          />
+          <input
+            class="checkbox"
+            type="checkbox"
+            name="rememberId"
+            id="rememberId"
+          />
+          <label class="checkboxLabel" for="rememberId">아이디 저장</label>
+          <button class="loginBtn" type="submit">로그인</button>
         </form>
         <div class="bottomInfo">
-          <div class="goSignIn">회원가입하기</div>
-          <div class="findPassWord">비밀번호 찾기</div>
+          <div class="goSignIn">
+            <a href="signIn.html"> 회원가입하기 </a>
+          </div>
+          <div class="findPassword">
+            <a href="#"> 비밀번호 찾기 </a>
+          </div>
         </div>
+        <footer class="loginFooter">&copy; Mingcoding</footer>
       </section>
     </div>
   </body>
